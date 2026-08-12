@@ -1,5 +1,6 @@
 package com.marbledhubb.repair_my_anvil.event;
 
+import com.marbledhubb.repair_my_anvil.init.ModItemTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.sounds.SoundEvents;
@@ -37,7 +38,7 @@ public class AnvilRepairEvent {
         double b1 = (double)pos.getY() + 1.0;
         double b2 = (double)pos.getZ() + 0.0 + source.nextDouble();
 
-        if (stack.is(Items.IRON_INGOT)) {
+        if (stack.is(ModItemTags.Items.ANVIL_REPAIR_MATERIAL)) {
             if (state.is(Blocks.DAMAGED_ANVIL)) {
                 event.setCancellationResult(InteractionResult.SUCCESS);
                 event.setCanceled(true);

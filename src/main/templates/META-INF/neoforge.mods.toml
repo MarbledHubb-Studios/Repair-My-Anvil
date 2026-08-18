@@ -6,7 +6,7 @@ issueTrackerURL="https://github.com/MarbledHubb-Studios/Repair-My-Anvil/issues"
 
 [[mods]]
 modId="repair_my_anvil"
-version="1.0.0.0"
+version="1.1.0.0"
 displayName="Repair My Anvil!"
 displayURL="https://marbledhubb.com/projects/mods/repair-my-anvil"
 logoFile="rpa_icon_static.png"
